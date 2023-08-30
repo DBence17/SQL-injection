@@ -36,4 +36,7 @@ After you created the test database you can navigate inside it in the postgres a
 
 ## LAST STEP
 
-Everything should work with the steps above, you only have to run main.py
+Everything should work with the steps above, you only have to run 
+```bash
+main.py
+```
