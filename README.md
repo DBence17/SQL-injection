@@ -10,12 +10,12 @@ Also install the psycopg2 python module with the command: pip install psycopg2-b
 CREATE THE DATABASE
 
 Open up the postgres app and you will see 3 databases there by default.
-Make sure the server is running, if not press the start button
+Make sure the server is running, if not press the start button.
 Click on any one of them.
 It will navigate to an sql shell.
 In the shell run the following command: CREATE DATABASE test;
-If successful 'CREATE DATABASE' will appear in the sell after command
-Then you can run \l in the shell to see all the databases on your server, but that's only to check whether the creation didn't fail
+If successful 'CREATE DATABASE' will appear in the sell after the command
+Then you can run \l in the shell to see all the databases on your server, but that's only to check whether the creation didn't fail.
 After you created the test database you can navigate inside it in the postgres app, however that's optional.
 
 
