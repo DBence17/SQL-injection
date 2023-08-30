@@ -14,7 +14,7 @@ Make sure the server is running, if not press the start button.
 Click on any one of them.
 It will navigate to an sql shell.
 In the shell run the following command: CREATE DATABASE test;
-If successful 'CREATE DATABASE' will appear in the sell after the command.
+If successful 'CREATE DATABASE' will appear in the shell after the command.
 Then you can run \l in the shell to see all the databases on your server, but that's only to check whether the creation didn't fail.
 After you created the test database you can navigate inside it in the postgres app, however that's optional.
 
