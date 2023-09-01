@@ -40,13 +40,12 @@ After you created the test database you can navigate inside it in the postgres a
 * Create the database as postgres user 
 
 ```bash
-pip install psycopg2-binary
-pip install random_username
-
 sudo usermod -a -G postgres dev
 id postgres
 
-sudo su postgres <<EOF_SUDO
+sudo -u postgres -s <<EOF_SUDO
+pip install psycopg2-binary
+pip install random_username
 echo "create database test; \l" | psql
 EOF_SUDO
 ```
@@ -57,5 +56,5 @@ if successful, 'CREATE DATABASE' and the database list will appear in the shell.
 
 Everything should work with the steps above, you only have to run 
 ```bash
-main.py
+sudo -u postgres ./main.py
 ```
