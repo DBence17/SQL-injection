@@ -56,5 +56,6 @@ if successful, 'CREATE DATABASE' and the database list will appear in the shell.
 
 Everything should work with the steps above, you only have to run 
 ```bash
+chmod +x main.py
 sudo -u postgres ./main.py
 ```
